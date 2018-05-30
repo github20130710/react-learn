@@ -3,16 +3,16 @@ import FilterLink from '../containers/FilterLink'
 import { VisibilityFilters } from '../actions'
 
 const Footer = () => (
-  <div>
-    <span>Show: </span>
+  <div className="row filter">
+    <span>过滤: </span>
     <FilterLink filter={VisibilityFilters.SHOW_ALL}>
-      All
+      全部
     </FilterLink>
     <FilterLink filter={VisibilityFilters.SHOW_ACTIVE}>
-      Active
+      激活中
     </FilterLink>
     <FilterLink filter={VisibilityFilters.SHOW_COMPLETED}>
-      Completed
+      已完成
     </FilterLink>
   </div>
 )

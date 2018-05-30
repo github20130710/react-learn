@@ -1,0 +1,42 @@
+body{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    font-size: 14px;
+}
+button {
+    cursor: pointer;
+}
+.container{
+    background-color: gainsboro;
+    width:-webkit-fill-available;
+    height: -webkit-fill-available;
+}
+.content{
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px 15px 5px 15px;
+    background-color: lightcoral;
+}
+.row {
+    display: inline;
+}
+.action {
+    line-height: 22px;
+}
+.action input {
+    line-height: inherit;
+    width: 85%;
+    margin: 0 5px;
+}
+.action button {
+    line-height: inherit;
+    float: right;
+}
+.filter{
+    margin: 10px 0 0 5px;
+    line-height: 22px;
+}
+.filter button{
+    margin-right: 5px;
+    line-height: 20px;
+}
